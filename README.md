@@ -16,6 +16,6 @@ For installing you should run next commands:
 * List/Create/Edit/Delete categories.
 * Index page with all categories displayed as tree-list
 
-<img src="https://raw.githubusercontent.com/nmfes/yii2-test-task/master/web/img/github/1.png" height="500">
-<img src="https://raw.githubusercontent.com/nmfes/yii2-test-task/master/web/img/github/2.png" height="500">
-<img src="https://raw.githubusercontent.com/nmfes/yii2-test-task/master/web/img/github/3.png" height="500">
+<img src="https://raw.githubusercontent.com/NMFES/yii2-test-task/master/web/img/1.png" height="500">
+<img src="https://raw.githubusercontent.com/nmfes/yii2-test-task/master/web/img/2.png" height="500">
+<img src="https://raw.githubusercontent.com/nmfes/yii2-test-task/master/web/img/3.png" height="500">
