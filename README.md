@@ -5,7 +5,7 @@
 For installing you should run next commands:
 
 * `git clone https://github.com/NMFES/yii2-test-task.git`
-* `cd test-blog`
+* `cd yii2-test-task`
 * `composer install`
 * `php yii migrate`
 * `php yii fixture/load "*"`
