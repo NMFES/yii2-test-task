@@ -18,7 +18,6 @@ class CategoriesController extends \yii\web\Controller {
         return $this->render('index', [
                     'category' => $category,
                     'categories' => Categories::getSubCategories($category),
-                    'tree' => Categories::getCategoriesTree($category),
                     'model' => new Categories()
         ]);
     }
@@ -51,8 +50,6 @@ class CategoriesController extends \yii\web\Controller {
 
         return $this->render('create', [
                     'category' => $category,
-                    'categories' => Categories::getSubCategories($category),
-                    'tree' => Categories::getCategoriesTree($category),
                     'model' => $model
         ]);
     }
@@ -90,8 +87,6 @@ class CategoriesController extends \yii\web\Controller {
 
         return $this->render('edit', [
                     'category' => $category,
-                    'categories' => Categories::getSubCategories($category),
-                    'tree' => Categories::getCategoriesTree($category),
                     'model' => $category
         ]);
     }

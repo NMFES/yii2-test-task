@@ -4,11 +4,12 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use app\models\Categories;
 
 $this->title = 'Категории';
 $this->params['breadcrumbs'][] = ['label' => $this->title, 'url' => ['categories/index']];
 
-foreach ($tree as $treeCategory) {
+foreach (Categories::getCategoriesTree($category) as $treeCategory) {
     $this->params['breadcrumbs'][] = ['label' => $treeCategory['title'], 'url' => ['categories/index', 'id' => $treeCategory['id']]];
 }
 
