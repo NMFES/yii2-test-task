@@ -39,14 +39,13 @@ $config = [
             ],
         ],
         'db' => $db,
-    /*
-      'urlManager' => [
-      'enablePrettyUrl' => true,
-      'showScriptName' => false,
-      'rules' => [
-      ],
-      ],
-     */
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'rules' => [
+                'categories/<action:(index|create|edit|delete)>/<id:[0-9]+>' => 'categories/<action>'
+            ],
+        ],
     ],
     'params' => $params,
 ];
